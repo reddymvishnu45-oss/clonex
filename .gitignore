@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+node_modules/negotiator/*.js
+vendor/
+
+
+# Build outputs
+dist/
+build/
+out/
+
+# Environment files
+.env
+*.local
+*.json
+*.js
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Framework-specific
+.next/
+.nuxt/
+.cache/
+coverage/
