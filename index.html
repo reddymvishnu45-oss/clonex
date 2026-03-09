@@ -1,13 +1,55 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./src/output.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline bg-amber-700">
-    Hello world!
-  </h1>
+
+<body class=" bg-black text-amber-100 ">
+  <div class="container flex mx-auto">
+    <div class="first  w-full">
+      <div class="logo invert">
+         <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                        <g>
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                            </path>
+                        </g>
+                    </svg>
+      </div>
+      <div class="sidebar flex justify-end">
+        <ul class="flex flex-col text-xl space-y-3 w-0.5 gap-3">
+          <li class="flex justify-start items-center gap-3"><span class="text-3xl material-symbols-outlined"> home </span> <span class="hidden md:block">Home</span>
+          </li>
+          <li class="flex justify-start items-center gap-3"><span class="text-3xl material-symbols-outlined"> search </span><span
+              class="hidden md:block">Explore</span></li>
+          <li class="flex justify-start items-center gap-3"><span class="text-3xl material-symbols-outlined"> notifications </span><span
+              class="hidden md:block">Notifications</span></li>
+          <li class="flex justify-start items-center gap-3"><span class="text-3xl material-symbols-outlined"> message </span><span class="hidden md:block">Grok</span>
+          </li>
+          <li class="flex justify-start items-center gap-3"><span class="text-3xl material-symbols-outlined"> lists </span><span class="hidden md:block">Lists</span>
+          </li>
+          <li class="flex justify-start items-center gap-3"><span class="text-3xl material-symbols-outlined"> bookmarks </span><span
+              class="hidden md:block">Bookmarks</span></li>
+          <li class="flex justify-start items-center gap-3"> <span class="text-3xl material-symbols-outlined"> Group </span><span
+              class="hidden md:block">Communities</span></li>
+          <li class="flex justify-start items-center gap-3"><span class="text-3xl material-symbols-outlined"> box </span><span class="hidden md:block">Premium</span>
+          </li>
+          <li class="flex justify-start items-center gap-3"><span class="text-3xl material-symbols-outlined"> person </span><span
+              class="hidden md:block">Profile</span></li>
+          <li class="flex justify-start items-center gap-3"><span class="text-3xl material-symbols-outlined"> pending </span><span class="hidden md:block">More</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="second  w-full border-white"></div>
+    <div class="third  w-full"></div>
+  </div>
 </body>
+
 </html>
